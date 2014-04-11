@@ -7,12 +7,13 @@
 //
 
 #import "TTLAppDelegate.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @implementation TTLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [FBLoginView class];
     return YES;
 }
 							
